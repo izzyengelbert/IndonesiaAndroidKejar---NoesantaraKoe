@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:onClick="map">
+
+   <ImageView
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:src="@drawable/indonesia"
+       android:scaleType="centerCrop"/>
+   <ImageView
+       android:layout_width="300dp"
+       android:layout_height="120dp"
+       android:src="@drawable/indonesia_colour"
+       android:layout_margin="20dp"
+       android:scaleType="centerCrop"
+       android:layout_centerInParent="true"/>
+
+   <TextView
+       android:id="@+id/title1"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="Peta Buta"
+       android:textSize="40dp"
+       android:textColor="#FFF"
+       android:layout_marginTop="20dp"
+       android:layout_marginBottom="5dp"
+
+       android:layout_centerHorizontal="true"
+       android:textStyle="italic"/>
+   <TextView
+       android:id="@+id/title2"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="Indonesia"
+       android:textSize="40dp"
+       android:textColor="#FFF"
+       android:layout_marginTop="5dp"
+       android:layout_marginLeft="10dp"
+       android:layout_marginRight="10dp"
+       android:layout_marginBottom="50dp"
+       android:layout_centerHorizontal="true"
+       android:layout_below="@id/title1"
+       android:textStyle="italic"/>
+   <TextView
+       android:id="@+id/click"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="Klik di mana saja untuk melanjutkan"
+       android:layout_margin="20dp"
+       android:textSize="12sp"
+       android:textColor="#F44336"
+       android:layout_alignParentBottom="true"
+       android:layout_centerHorizontal="true"
+       android:textStyle="normal"/>
+
+</RelativeLayout>
